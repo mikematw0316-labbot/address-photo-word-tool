@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: address-photo-word-tool
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: SESSION_TTL_SECONDS
+        value: "86400"
+      - key: MAX_UPLOAD_BYTES
+        value: "524288000"
