@@ -2,6 +2,12 @@
 
 這是可部署的網站服務。部署完成後，使用者只需網址，不必安裝程式，也不綁定 Mac 或 Codex。
 
+## 直接使用
+
+**https://mikematw0316-labbot.github.io/address-photo-word-tool/**
+
+GitHub Pages 版本完全在使用者的瀏覽器內處理照片、OCR、分類與 Word，不會將照片上傳到伺服器。
+
 ## 使用方式
 
 1. 使用者以瀏覽器開啟網站。
